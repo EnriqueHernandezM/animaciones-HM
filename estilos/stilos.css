@@ -547,11 +547,10 @@ background-color: rgba(208, 226, 243, 0.277);
     background: rgb(64,114,56);
 background: linear-gradient(90deg, rgba(64,114,56,1) 25%, rgba(7,62,0,1) 92%);
     padding: .25rem;
-    width: 25rem;
+    width: 20% ;
     display: inline-block;
-    position: absolute;
-    left: 70%;
-    top: 90%;
+   margin-bottom: 5%;
+   margin-left: 40%;
 }
                                    /*pie de paginas*/
 #pie_paginas{
