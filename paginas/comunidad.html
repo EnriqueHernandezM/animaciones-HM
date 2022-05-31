@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,52 +26,55 @@
                     </nav>
             </div>
                 <main>
-                <div class="grilla_comunidad">                      <!--en main empieza grid-->
-                    <article  class="comunidad_titulo" >
-                        <h3> INICIA SESION PARA ACCEDER  </h3>
-                        <p> Si incias secion en este espacio podras comentar e interactuar con la comunidad</p>
-                    </article>   
-                        <form action="" method="get" enctype="text/plain" > 
-                            <div class="form_1">
-                                    <label  for="username"> Nombre </label>
-                                    <input type="text" name="username" id="username">
-                                         <label for="useremail">correo electronico </label>
-                                        <input type="email" name="useremail" id="useremail"></legend>
-                                            <label for="password"> crea una contraseña </label> 
-                                                <input type="password" name="password" id="password"> 
-                            </div>
-                                <div class="form_2">
-                                <label  for="pais"> selecciona tu pais
-                                    <select id="pais">
-                                        <option>seleccione</option>
-                                        <option>Mexico</option>
-                                        <option> Argentina</option>
-                                        <option> Colombia </option>
-                                        <option> Esatados Unidos</option>
-                                        <option> Cnadada </option>
-                                    </label>
-                                    </select>
-                                        </div>
-                                            <div class="form_3">
-                                                <label  for="selecgenero"> genero </label> 
-                                                    <input type="radio" name="genero" id="selecgenero"> masuculino
-                                                    <input type="radio" name="genero" id="selecgenero" > femenino
-                                                    <input type="radio" name="genero" id="selecgenero" > otro 
+                    <div class="grilla_comunidad">                      <!--en main empieza grid-->
+                        <article  class="comunidad_titulo" >
+                            <h3> INICIA SESION PARA ACCEDER  </h3>
+                            <p> Si incias secion en este espacio podras comentar e interactuar con la comunidad</p>
+                        </article>   
+                            <form action="" method="get" enctype="text/plain" > 
+                                <div class="form_1">
+                                        <label  for="username"> Nombre </label>
+                                        <input type="text" name="username" id="username">
+                                            <label for="useremail">correo electronico </label>
+                                            <input type="email" name="useremail" id="useremail"></legend>
+                                                <label for="password"> crea una contraseña </label> 
+                                                    <input type="password" name="password" id="password"> 
+                                </div>
+                                    <div class="form_2">
+                                    <label  for="pais"> selecciona tu pais
+                                        <select id="pais">
+                                            <option>seleccione</option>
+                                            <option>Mexico</option>
+                                            <option> Argentina</option>
+                                            <option> Colombia </option>
+                                            <option> Esatados Unidos</option>
+                                            <option> Cnadada </option>
+                                        </label>
+                                        </select>
                                             </div>
-                                                <div class="form_4">
-                                                            <label  for="selecpreferencias"> selecciona tus preferencias </label> 
-                                                                <input type="checkbox" name="playas" >playas 
-                                                                <input type="checkbox" name="zonasarqueologicas" >zonas arqueologicas
-                                                                <input type="checkbox" name="bosques">bosques 
-                                                                <input type="checkbox" name="pueblosmagicos">pueblos magicos
-                                                                <input type="checkbox" name="rios" >rios, lagos cenotes
-                                                </div>                                                                                                                                 
-                                                    <input class="boton_comunidad"  type="submit" value="enviar">
-                        </form>   
-                </div>
-                    <div>                        
-                       
-                    </div>
+                                                <div class="form_3">
+                                                    <label  for="selecgenero"> genero </label> 
+                                                        <input type="radio" name="genero" id="selecgenero"> masuculino
+                                                        <input type="radio" name="genero" id="selecgenero" > femenino
+                                                        <input type="radio" name="genero" id="selecgenero" > otro 
+                                                </div>
+                                                    <div class="form_4">
+                                                                <label  for="selecpreferencias"> selecciona tus preferencias </label> 
+                                                                    <input type="checkbox" name="playas" >playas 
+                                                                    <input type="checkbox" name="zonasarqueologicas" >zonas arqueologicas
+                                                                    <input type="checkbox" name="bosques">bosques 
+                                                                    <input type="checkbox" name="pueblosmagicos">pueblos magicos
+                                                                    <input type="checkbox" name="rios" >rios, lagos cenotes
+                                                    </div>                                                                                                                                 
+                                                        <input class="boton_comunidad"  type="submit" value="enviar">
+                            </form>   
+                    </div>                     
+                        <div>                               <!--animacion-->
+                            <address class="anuncio" data-aos="fade-left"> 
+                                <h1>quieres viajar y conocer muchos de estos lugares</h1>
+                                <a href="https://www.xcaret.com/es/"> <img src="https://www.xcaret.com/static/logo-xcaret-new.svg" alt=""></a>
+                            </address>
+                        </div>          
                 </main>
                     <footer id="pie_paginas">
                         <p>Hecho por</p>
@@ -79,6 +83,8 @@
                         </p> 5613507622</p>
                         <a href="https://www.facebook.com/enrique.hernandezmontiel.5/"> <img src="../imagenes/logface.png" alt="faccebook"></a>
                     </footer> 
-                        
+                        <script>
+                        AOS.init();
+                        </script> 
         </body>
 </html>
